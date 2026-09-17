@@ -1,0 +1,95 @@
+#1. Create a function to print Hello World.
+
+def n():
+    print("Hello world")
+n()
+
+
+#2. Create a function to print your name.
+
+name=str(input("Enter your name :"))
+def n():
+    print("MY NAME IS",name)
+n()
+
+
+#3. Create a function to add two numbers.
+
+a=int(input("Enter 1st number : "))
+b=int(input("Enter 2nd number : "))
+def n():
+    print("ADD IS :",a+b)
+n()
+
+
+#4. Create a function to subtract two numbers.
+
+a=int(input("Enter 1st number : "))
+b=int(input("Enter 2nd number : "))
+def n():
+    print("SUB IS :",a-b)
+n()
+
+
+#5. Create a function to find the square of a number.
+
+a=int(input("Enter 1st number : "))
+def n():
+    print(a**(1/2))
+n()
+
+
+#6. Create a function to check even or odd.
+
+a=int(input("Enter the number : "))
+def n():
+    if a%2==0:
+        print('even')
+    else:
+        print('odd')
+n()
+
+
+#7. Create a function to find the largest of two numbers.
+
+a=int(input("Enter 1st number : "))
+b=int(input("Enter 2nd number : "))
+def n():
+    if a>b:
+        print("1st number  is largest ")
+    elif a<b:
+        print("2st number  is largest ")
+    else:
+        print("1st and 2nd number is equal ")
+n()
+
+
+#8. Create a function to calculate the area of a rectangle.
+
+a=int(input("Enter length number : "))
+b=int(input("Enter breadth number : "))
+def n():
+    print("area of a rectangle is ",a*b)
+n()
+
+
+#9. Create a function to calculate the factorial of a number.
+
+a=int(input("Enter the number : "))
+def n(a):
+    if a==0:
+        return 1
+    return a*n(a-1)
+print(n(a))
+
+
+#10. Create a function to check whether a number is positive, negative, or zero.
+a=int(input("Enter the number : "))
+def n():
+    if a>0:
+        print("number is positive ")
+    elif a<0:
+        print("number is negative ")
+    else:
+        print("number is zero ")
+n()
